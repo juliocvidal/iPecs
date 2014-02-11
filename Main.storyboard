@@ -235,7 +235,7 @@
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
                                 <state key="normal" title="fun" image="fun.jpg"/>
                                 <connections>
-                                    <segue destination="6RO-Ha-dQG" kind="push" id="ACY-RP-odl"/>
+                                    <action selector="playAndAddToTimeLine:" destination="nsH-M9-Q86" eventType="touchUpInside" id="DbI-E6-Bx9"/>
                                 </connections>
                             </button>
                         </subviews>

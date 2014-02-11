@@ -57,6 +57,7 @@
 		6D9B4B0E18A099F0008D8C57 /* VWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D9B4B0D18A099F0008D8C57 /* VWHomeViewController.m */; };
 		6D9B4B1318A09FE3008D8C57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D9B4ACE18A09475008D8C57 /* Foundation.framework */; };
 		6D9B4B1618A0A125008D8C57 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D9B4AFD18A0949F008D8C57 /* AudioToolbox.framework */; };
+		D2D6494C18A9C1E000049F1F /* fun.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D2D6494B18A9C1E000049F1F /* fun.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -128,6 +129,7 @@
 		6D9B4B0C18A099F0008D8C57 /* VWHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VWHomeViewController.h; sourceTree = "<group>"; };
 		6D9B4B0D18A099F0008D8C57 /* VWHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VWHomeViewController.m; sourceTree = "<group>"; };
 		6D9B4B1418A09FEB008D8C57 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D2D6494B18A9C1E000049F1F /* fun.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fun.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -276,6 +278,7 @@
 		6D9B4B0B18A09994008D8C57 /* snd */ = {
 			isa = PBXGroup;
 			children = (
+				D2D6494B18A9C1E000049F1F /* fun.mp3 */,
 				6D38BF7518A3694800FECAB2 /* play.mp3 */,
 				6D38BF7618A3694800FECAB2 /* eat.mp3 */,
 				6D38BF7718A3694800FECAB2 /* school.mp3 */,
@@ -379,6 +382,7 @@
 				6D126C3E18A318BF00E54FEB /* bg4.png in Resources */,
 				6D5F4F8418A1EDA300A407AD /* bg2.png in Resources */,
 				6D38BF8C18A36B7000FECAB2 /* eat.jpg in Resources */,
+				D2D6494C18A9C1E000049F1F /* fun.mp3 in Resources */,
 				6D38BF8218A3694800FECAB2 /* i-want.mp3 in Resources */,
 				6D126C4A18A33E1600E54FEB /* pizza.jpg in Resources */,
 				6D38BF8618A3694800FECAB2 /* beach.mp3 in Resources */,
