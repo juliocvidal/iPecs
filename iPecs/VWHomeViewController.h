@@ -19,4 +19,6 @@
 @property NSMutableArray *images;
 @property NSMutableArray *buttons;
 
+//laercio eh uma bixona!!!!!
+
 @end
