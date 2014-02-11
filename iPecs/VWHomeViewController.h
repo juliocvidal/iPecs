@@ -15,11 +15,11 @@
 @property soundQueue *queue;
 
 @property NSMutableArray *originalQueue;
-//array de imagens
+//vetor de imagens
 @property NSMutableArray *images;
 //array de botoes
 @property NSMutableArray *buttons;
 
-//laercio eh uma bixona!!!!!
+
 
 @end
