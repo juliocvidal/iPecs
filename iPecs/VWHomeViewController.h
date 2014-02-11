@@ -15,8 +15,9 @@
 @property soundQueue *queue;
 
 @property NSMutableArray *originalQueue;
-
+//array de imagens
 @property NSMutableArray *images;
+//array de botoes
 @property NSMutableArray *buttons;
 
 //laercio eh uma bixona!!!!!
