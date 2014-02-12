@@ -57,6 +57,7 @@ NSInteger itens = 0;
         NSInteger limit = ([self.view viewWithTag:1000]) ? 1 : 2;
         if(self.originalQueue.count >= limit)
         {
+            itens--;
             NSLog(@"Segue Blocked");
             return NO;
         }
@@ -131,8 +132,8 @@ NSInteger itens = 0;
     [button setTitle:imageName forState:UIControlStateNormal];
     [button addTarget:self action:@selector(play:) forControlEvents:UIControlEventTouchUpInside];
     [button setImage:[UIImage imageNamed:[imageName stringByAppendingString:@".jpg"]] forState:UIControlStateNormal];
-    button.frame = CGRectMake(itens * 110 + 40.0f, 27.0f, 101.0f, 103.0f);
-    button.tag = itens + 1;
+    button.frame = CGRectMake(pos * 110 + 40.0f, 27.0f, 101.0f, 103.0f);
+    button.tag = pos + 1;
     [self.view addSubview:button];
     [self.buttons addObject:button];
 }
