@@ -110,11 +110,19 @@ NSInteger itens = 0;
 
 -(IBAction)playAndAddToTimeLine:(id)sender
 {
-    [self.originalQueue addObject:[sender currentTitle]];
-    [self play:sender];
-    [self addImageToTimeLine:[sender currentTitle] pos:itens];
-    itens++;
-    [self.images addObject:[sender currentTitle]];
+    //verifica se já existe esse objeto nas filas, caso true, nao adicionar
+    if(![self.originalQueue containsObject:[sender currentTitle]]){
+        NSLog(@"ADD esse object nas filas");
+        [self.originalQueue addObject:[sender currentTitle]];
+        [self play:sender];
+        [self addImageToTimeLine:[sender currentTitle] pos:itens];
+        itens++;
+        [self.images addObject:[sender currentTitle]];
+    }else{
+        NSLog(@"já existe esse object nas filas");
+    }
+    
+    
 }
 
 -(IBAction)play:(id)sender

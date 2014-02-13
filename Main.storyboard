@@ -472,9 +472,9 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
+        <segue reference="2pz-aK-hBW"/>
+        <segue reference="mZH-gd-Mhm"/>
         <segue reference="zvM-l5-Tp1"/>
         <segue reference="TIE-ed-d6x"/>
-        <segue reference="Quc-IP-Ozl"/>
-        <segue reference="adp-Wo-QrY"/>
     </inferredMetricsTieBreakers>
 </document>
