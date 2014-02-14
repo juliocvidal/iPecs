@@ -237,7 +237,7 @@
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
                                 <state key="normal" title="fun" image="fun.jpg"/>
                                 <connections>
-                                    <action selector="playAndAddToTimeLine:" destination="nsH-M9-Q86" eventType="touchUpInside" id="DbI-E6-Bx9"/>
+                                    <segue destination="6RO-Ha-dQG" kind="push" id="mBL-Es-j50"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -472,8 +472,8 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
+        <segue reference="Z7M-0I-HmN"/>
         <segue reference="2pz-aK-hBW"/>
-        <segue reference="mZH-gd-Mhm"/>
         <segue reference="zvM-l5-Tp1"/>
         <segue reference="TIE-ed-d6x"/>
     </inferredMetricsTieBreakers>

@@ -14,15 +14,12 @@
 
 @implementation VWHomeViewController
 
-NSInteger itens = 0;
-
 -(IBAction)playQueueSound:(id)sender
 {
     NSLog(@"play queue");
     soundQueue *result = [self.queue initWithArray:self.originalQueue];
     
     [self.queue playQueue];
-    
     NSLog(@"result - %@", result);
     
 }
@@ -30,10 +27,7 @@ NSInteger itens = 0;
 -(IBAction)removeQueue:(id)sender
 {
     NSLog(@"remove queue");
-    
     [self.originalQueue removeAllObjects];
-    [self.images removeAllObjects];
-    [self.buttons removeAllObjects];
     
 }
 
@@ -45,19 +39,11 @@ NSInteger itens = 0;
     if ([buttonName isEqualToString:@"back"])
     {
         [self.originalQueue removeLastObject];
-        [self.images removeLastObject];
-        UIView *aView = [self.view viewWithTag:self.images.count+1];
-        
-        [self.view description];
-        
-        [aView removeFromSuperview];
-        [self.buttons removeLastObject];
-        
+        [[self.view viewWithTag:self.originalQueue.count + 1] removeFromSuperview];
         
         NSInteger limit = ([self.view viewWithTag:1000]) ? 1 : 2;
         if(self.originalQueue.count >= limit)
         {
-            itens--;
             NSLog(@"Segue Blocked");
             return NO;
         }
@@ -81,7 +67,6 @@ NSInteger itens = 0;
     {
         [self.originalQueue addObject:buttonName];
         [self play:sender];
-        [self addImageToList:segue sender:sender];
         
     }else if ([buttonName isEqual:@"home"])
     {
@@ -94,34 +79,19 @@ NSInteger itens = 0;
     nextView.originalQueue = self.originalQueue;
     NSLog(@"%u", self.originalQueue.count);
     NSLog(@"%u", nextView.originalQueue.count);
-    nextView.images = self.images;
-    nextView.buttons = self.buttons;
     
-}
-
--(void)addImageToList:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    if ([self.images count] == 0)
-    {
-        self.images = [[NSMutableArray alloc] init];
-    }
-    [self.images addObject:[sender currentTitle]];
 }
 
 -(IBAction)playAndAddToTimeLine:(id)sender
 {
     //verifica se já existe esse objeto nas filas, caso true, nao adicionar
-    if(![self.originalQueue containsObject:[sender currentTitle]]){
+    if(![self.originalQueue containsObject:[sender currentTitle]])
+    {
         NSLog(@"ADD esse object nas filas");
         [self.originalQueue addObject:[sender currentTitle]];
         [self play:sender];
-        [self addImageToTimeLine:[sender currentTitle] pos:itens];
-        itens++;
-        [self.images addObject:[sender currentTitle]];
-    }else{
-        NSLog(@"já existe esse object nas filas");
+        [self addImageToTimeLine:[sender currentTitle] pos:self.originalQueue.count - 1];
     }
-    
     
 }
 
@@ -143,13 +113,12 @@ NSInteger itens = 0;
     button.frame = CGRectMake(pos * 110 + 40.0f, 27.0f, 101.0f, 103.0f);
     button.tag = pos + 1;
     [self.view addSubview:button];
-    [self.buttons addObject:button];
 }
 
 -(void)drawTimeLine:(NSMutableArray *)images
 {
-    for (itens = 0; itens < [images count]; itens++) {
-        [self addImageToTimeLine:[images objectAtIndex:itens] pos:itens];
+    for (int i = 0; i < [images count]; i++) {
+        [self addImageToTimeLine:[images objectAtIndex:i] pos:i];
     }
 }
 
@@ -165,7 +134,7 @@ NSInteger itens = 0;
 - (void)viewDidLoad
 {
     NSLog(@"entrou no did load");
-    [self drawTimeLine:self.images];
+    [self drawTimeLine:self.originalQueue];
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
 }

@@ -16,10 +16,4 @@
 
 @property NSMutableArray *originalQueue;
 
-//vetor de imagens
-@property NSMutableArray *images;
-//array de botoes
-@property NSMutableArray *buttons;
-
-
 @end

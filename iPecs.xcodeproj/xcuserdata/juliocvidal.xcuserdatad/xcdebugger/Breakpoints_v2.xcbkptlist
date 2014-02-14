@@ -10,12 +10,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "iPecs/VWHomeViewController.m"
-            timestampString = "413865757.25413"
+            timestampString = "414039194.376942"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "160"
-            endingLineNumber = "160"
-            landmarkName = "-viewDidLoad"
+            startingLineNumber = "129"
+            endingLineNumber = "129"
+            landmarkName = "-initWithNibName:bundle:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -26,12 +26,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "iPecs/VWHomeViewController.m"
-            timestampString = "413865757.25413"
+            timestampString = "414039194.376942"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "143"
-            endingLineNumber = "143"
-            landmarkName = "-drawTimeLine:"
+            startingLineNumber = "113"
+            endingLineNumber = "113"
+            landmarkName = "-addImageToTimeLine:pos:"
             landmarkType = "5">
             <Locations>
                <Location
@@ -72,12 +72,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "iPecs/VWHomeViewController.m"
-            timestampString = "413865757.25413"
+            timestampString = "414039194.376942"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "131"
-            endingLineNumber = "131"
-            landmarkName = "-addImageToTimeLine:pos:"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "-play:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -88,11 +88,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "iPecs/VWHomeViewController.m"
-            timestampString = "413865757.25413"
+            timestampString = "414039194.376942"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "115"
-            endingLineNumber = "115"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
             landmarkName = "-playAndAddToTimeLine:"
             landmarkType = "5">
          </BreakpointContent>
@@ -104,12 +104,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "iPecs/VWHomeViewController.m"
-            timestampString = "413865757.25413"
+            timestampString = "414039194.376942"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "135"
-            endingLineNumber = "135"
-            landmarkName = "-addImageToTimeLine:pos:"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
+            landmarkName = "-play:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
