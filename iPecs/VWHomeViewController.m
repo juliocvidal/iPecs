@@ -73,12 +73,12 @@
         [self removeQueue:sender];
     }
     
-    NSLog(@"%u", self.originalQueue.count);
+    NSLog(@"%lu", (unsigned long)self.originalQueue.count);
     VWHomeViewController * nextView = segue.destinationViewController;
     nextView.queue = self.queue;
     nextView.originalQueue = self.originalQueue;
-    NSLog(@"%u", self.originalQueue.count);
-    NSLog(@"%u", nextView.originalQueue.count);
+    NSLog(@"%lu", (unsigned long)self.originalQueue.count);
+    NSLog(@"%lu", (unsigned long)nextView.originalQueue.count);
     
 }
 
@@ -144,5 +144,6 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 
 @end

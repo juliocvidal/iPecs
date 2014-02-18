@@ -24,15 +24,15 @@
             <objects>
                 <viewController title="i-want" id="qEj-Hu-L4g" userLabel="HomeViewController" customClass="VWHomeViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="SGm-pB-v6s"/>
-                        <viewControllerLayoutGuide type="bottom" id="81T-WY-ZPR"/>
+                        <viewControllerLayoutGuide type="top" id="yd9-34-UJO"/>
+                        <viewControllerLayoutGuide type="bottom" id="snc-XX-GWN"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="K4f-6k-gGA" userLabel="HomeView">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg_default.png" translatesAutoresizingMaskIntoConstraints="NO" id="NkF-Fe-3Ig">
-                                <rect key="frame" x="-37" y="0.0" width="1068" height="768"/>
+                                <rect key="frame" x="-37" y="0.0" width="1271" height="782"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ygA-uE-hiW">
@@ -76,7 +76,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WsL-Bv-QZH">
-                                <rect key="frame" x="938" y="90" width="66" height="50"/>
+                                <rect key="frame" x="944" y="90" width="60" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" title="replay" image="replay.jpg">
@@ -102,8 +102,8 @@
             <objects>
                 <viewController id="4Js-IN-12q" userLabel="AnimationViewController" customClass="VWHomeViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="a98-MH-Z7z"/>
-                        <viewControllerLayoutGuide type="bottom" id="ni2-gH-L20"/>
+                        <viewControllerLayoutGuide type="top" id="XJB-yQ-SFu"/>
+                        <viewControllerLayoutGuide type="bottom" id="oPu-DW-Pgb"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="hYV-5P-Ppi">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
@@ -151,8 +151,8 @@
             <objects>
                 <viewController id="JTs-Me-3oN" userLabel="IWantViewController" customClass="VWHomeViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="TwU-Rf-ry4"/>
-                        <viewControllerLayoutGuide type="bottom" id="4y0-Ed-wby"/>
+                        <viewControllerLayoutGuide type="top" id="uOw-Jq-N6r"/>
+                        <viewControllerLayoutGuide type="bottom" id="NgZ-1x-XLV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="hh0-XD-45B">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
@@ -256,8 +256,8 @@
             <objects>
                 <viewController id="6RO-Ha-dQG" userLabel="ObjectViewController" customClass="VWHomeViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="InU-cA-jGh"/>
-                        <viewControllerLayoutGuide type="bottom" id="2yr-Qg-Jrz"/>
+                        <viewControllerLayoutGuide type="top" id="4tb-wW-nWL"/>
+                        <viewControllerLayoutGuide type="bottom" id="6fr-5r-2cG"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="IyC-4g-WX7">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
@@ -362,8 +362,8 @@
             <objects>
                 <viewController id="Mkf-DW-SqB" userLabel="IAmViewController" customClass="VWHomeViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="MQc-e4-gvD"/>
-                        <viewControllerLayoutGuide type="bottom" id="G1a-0Z-Htj"/>
+                        <viewControllerLayoutGuide type="top" id="QYX-W6-Cgi"/>
+                        <viewControllerLayoutGuide type="bottom" id="I08-j3-nWv"/>
                     </layoutGuides>
                     <view key="view" tag="1000" contentMode="scaleToFill" id="H2X-L5-eC9">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
@@ -472,9 +472,9 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="Z7M-0I-HmN"/>
-        <segue reference="2pz-aK-hBW"/>
+        <segue reference="Lo5-7b-dhF"/>
+        <segue reference="CiO-Lj-NOL"/>
+        <segue reference="34P-zD-6Mw"/>
         <segue reference="zvM-l5-Tp1"/>
-        <segue reference="TIE-ed-d6x"/>
     </inferredMetricsTieBreakers>
 </document>
